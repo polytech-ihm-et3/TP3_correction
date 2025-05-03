@@ -3,8 +3,8 @@ package view;
 public interface ViewInterface
 {
 	/**
-	 * Met à jour la vue en accord avec le modèle.
-	 * @param value La valeur du pourcentage à représenter dans la vue
+	 * Met Ã  jour la vue en accord avec le modÃ¨le.
+	 * @param value La valeur du pourcentage Ã  reprÃ©senter dans la vue
 	 */
 	public void update(double value);
 }

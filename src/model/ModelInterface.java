@@ -17,16 +17,16 @@ public interface ModelInterface
 	public void setValue(double value);
 	
 	/**
-	 * Ajoute un élément implémentant l'interface PercentageValueListener
-	 * à la liste des éléments surveillant le modèle.
-	 * @param percentageValueListener L'élément de type ValueListener à ajouter à la liste
+	 * Ajoute un Ã©lÃ©ment implÃ©mentant l'interface PercentageValueListener
+	 * Ã  la liste des Ã©lÃ©ments surveillant le modÃ¨le.
+	 * @param percentageValueListener L'Ã©lÃ©ment de type ValueListener Ã  ajouter Ã  la liste
 	 */
 	public void addPercentageValueListener(PercentageValueListener percentageValueListener);
 	
 	/**
-	 * Retire un élément implémentant l'interface PercentageValueListener
-	 * de la liste des éléments surveillant le modèle.
-	 * @param percentageValueListener L'élément de type ValueListener à retirer de la liste
+	 * Retire un Ã©lÃ©ment implÃ©mentant l'interface PercentageValueListener
+	 * de la liste des Ã©lÃ©ments surveillant le modÃ¨le.
+	 * @param percentageValueListener L'Ã©lÃ©ment de type ValueListener Ã  retirer de la liste
 	 */
 	public void removePercentageValueListener(PercentageValueListener percentageValueListener);
 	
@@ -38,7 +38,7 @@ public interface ModelInterface
 	public boolean valueIsOK(double value);
 	
 	/**
-	 * Signale que la valeur actuelle du pourcentage à changé.
+	 * Signale que la valeur actuelle du pourcentage Ã  changÃ©.
 	 */
 	public void fireValueChanged();
 }

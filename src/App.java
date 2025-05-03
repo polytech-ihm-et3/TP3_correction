@@ -23,13 +23,13 @@ public class App extends VBox
 	
 	public App()
 	{
-		//On crée le modèle
+		//On crÃ©e le modÃ¨le
 		model = new Model(0.0f);
 		
-		//On crée le controlleur
+		//On crÃ©e le controlleur
 		controller = new Controller(model);
 		
-		//On crée les vues
+		//On crÃ©e les vues
 		labelView = new LabelView();
 		pieChartView = new PieChartView(controller);
 		sliderView = new SliderView(controller);
@@ -44,7 +44,7 @@ public class App extends VBox
 		//On initialise l'interface utilisateur
 		initialiserUI();
 		
-		//On rend la fenêtre visible
+		//On rend la fenÃªtre visible
 		setVisible(true);
 	}
 	
@@ -56,16 +56,16 @@ public class App extends VBox
 		Label label = new Label("Percentage: ");
 		labelView.setDisable(true);
 		
-		//On crée un sous-Pane pour le label et sa valeur (labelView)
+		//On crÃ©e un sous-Pane pour le label et sa valeur (labelView)
 		HBox northPanel = new HBox();
 		northPanel.getChildren().addAll(label,labelView);
 		
-		//On définit l'espacement entre les différents éléments du Pane
+		//On dÃ©finit l'espacement entre les diffÃ©rents Ã©lÃ©ments du Pane
 		this.setSpacing(30);
 		VBox.setMargin(this, new Insets(15, 15, 15, 15));
 		this.setAlignment(Pos.CENTER);
 		
-		//On ajoute tous les éléments au Pane
+		//On ajoute tous les Ã©lÃ©ments au Pane
 		this.getChildren().addAll(northPanel,pieChartView,sliderView);
 	}
 }

@@ -36,7 +36,7 @@ public class Model implements ModelInterface
 		}
 		else
 		{
-			throw (new IllegalArgumentException("La valeur entrée en paramètre n'est pas un pourcentage compris entre 0 et 1 (value = " + value + ")."));
+			throw (new IllegalArgumentException("La valeur entrÃ©e en paramÃ¨tre n'est pas un pourcentage compris entre 0 et 1 (value = " + value + ")."));
 		}
 	}
 	

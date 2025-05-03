@@ -5,8 +5,8 @@ import java.util.EventListener;
 public interface PercentageValueListener extends EventListener
 {
 	/**
-	 * Réagit à un changement de la valeur du pourcentage dans le modèle.
-	 * @param event l'évenement correspondant à ce changement
+	 * RÃ©agit Ã  un changement de la valeur du pourcentage dans le modÃ¨le.
+	 * @param event l'Ã©venement correspondant Ã  ce changement
 	 */
 	public void percentageValueChanged(PercentageValueChangedEvent event);
 }
