@@ -9,7 +9,7 @@
             "name": "Launch",
             "request": "launch",
             "mainClass": "application/application.Main",
-            "projectName": "file_selector",
+            "projectName": "model-vue-controller",
             "preLaunchTask": "Maven create target"
         }
     ]
